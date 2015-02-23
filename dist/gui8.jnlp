@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="gui8.jnlp">
+  <information>
+    <title>gui8</title>
+    <vendor>Dylan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="gui8.jar" size="39828" download="eager" />
+    <jar href="lib/beansbinding-1.2.1.jar" size="631289" download="eager" />
+    <jar href="lib/commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="lib/commons-lang3-3.3.2.jar" size="412740" download="eager" />
+    <jar href="lib/commons-logging-1.1.3.jar" size="62050" download="eager" />
+    <jar href="lib/junit-4.11.jar" size="245039" download="eager" />
+    <jar href="lib/log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="lib/poi-3.11-20141221.jar" size="2080419" download="eager" />
+    <jar href="lib/poi-examples-3.11-20141221.jar" size="328510" download="eager" />
+    <jar href="lib/poi-excelant-3.11-20141221.jar" size="30374" download="eager" />
+    <jar href="lib/poi-ooxml-3.11-20141221.jar" size="1210980" download="eager" />
+    <jar href="lib/poi-ooxml-schemas-3.11-20141221.jar" size="5595829" download="eager" />
+    <jar href="lib/poi-scratchpad-3.11-20141221.jar" size="1289561" download="eager" />
+    <jar href="lib/xmlbeans-2.6.0.jar" size="2730866" download="eager" />
+  </resources>
+  <application-desc main-class="gui8.MainWindow"  name="gui8" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
